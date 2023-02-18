@@ -1,0 +1,14 @@
+#server:
+#  port: 9200
+#
+#spring:
+#  application:
+#    name: CustomerAddressMS
+#  cloud:
+#    consul:
+#      config:
+#        enabled: true
+#        prefixes: config
+#        default-context: application
+#        profile-separator: '::'
+#        format: YAML
